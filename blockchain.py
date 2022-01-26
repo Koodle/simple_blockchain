@@ -14,7 +14,6 @@ class Blockchain:
         self.create_block(data = {})
 
     def create_block(self, data):
-
         if len(self.chain) == 0:
             initial_block = {
                 'index': len(self.chain) + 1,
@@ -43,7 +42,6 @@ class Blockchain:
 
     def get_previous_block(self):
         return self.chain[-1]
-
 
     def calculate_nonce(self, block):
         check_nonce = False
@@ -92,3 +90,4 @@ class Blockchain:
             previous_block = current_block
             block_index += 1
         return True
+    
