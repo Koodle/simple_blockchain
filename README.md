@@ -1,5 +1,5 @@
 # simple_blockchain  
-A simple implementation of a **blockchain** & a corresponding **web app** in order to interact with it  
+A simple implementation of a ***blockchain*** & a corresponding ***web app*** in order to interact with it  
   
 **Built using:**    
 -Flask, HashLib(sha256)  
