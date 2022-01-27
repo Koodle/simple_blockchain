@@ -53,7 +53,7 @@ class Blockchain:
                 print(f"hash value: ${hash_value}")
                 print(f"nonce: ${block['nonce']}")
                 check_nonce = True
-                block["hash"] = hash_value  # Assign has key to the block
+                block["hash"] = hash_value  # Assign hash key to the block
             else:
                 # Adjust the nonce until the target hash is met
                 block["nonce"] += 1
