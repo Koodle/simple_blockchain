@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "ee2bf82b-5ae7-4167-b9fd-5e59c64847ab",
+		"name": "blockchain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mine block",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"data\": [\r\n        {\r\n        \"id\": 1,\r\n        \"from\": \"Kazim\",\r\n        \"to\": \"Anson\",\r\n        \"amount\": 250.12},\r\n        {\r\n        \"id\": 2,\r\n        \"from\": \"Kazim\",\r\n        \"to\": \"Eashan\",\r\n        \"amount\": 1200}\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/mine_block",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"mine_block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get chain",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/get_chain",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"get_chain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "is valid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/is_valid",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"is_valid"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
