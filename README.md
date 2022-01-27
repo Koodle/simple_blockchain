@@ -10,3 +10,7 @@ A simple implementation of a ***blockchain*** & a corresponding ***web app*** in
 -Check if the chain is valid. -> /is_valid  
 (to make sure it has not been tampered with and its integrity is maintained)  
 
+**Files:** 
+blockhain.py - The blockchain code  
+flaskr.py - The Web App  
+blockchain.postman_collection - Postman HTTP requests for testing the routes of the flask web app  
