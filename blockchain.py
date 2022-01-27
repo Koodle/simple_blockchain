@@ -1,11 +1,8 @@
-# Module 1 - Create a Blockchain
 
 # Importing the libraries
 import datetime
 import hashlib
 import json
-
-# Part 1 - Building a Blockchain
 
 class Blockchain:
 
